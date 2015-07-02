@@ -11,6 +11,16 @@ class TestCalculatorFunctions(unittest.TestCase):
     def test_add(self):
         self.assertEqual(calc.add(self.x, self.y), 5)
 
+    def test_subtract(self):
+        self.assertEqual(calc.subtract(self.x, self.y), -1)
+
+    def test_multiply(self):
+        self.assertEqual(calc.multiply(self.x, self.y), 6)
+
+    def test_divide(self):
+        self.assertEqual(calc.divide(self.x, self.y), )
+
+
 
 if __name__ == "__main__":
     unittest.main()

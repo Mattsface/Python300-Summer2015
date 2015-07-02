@@ -32,10 +32,10 @@ class Ascii2Ord( object ):
 class TestAscii2Ord( unittest.TestCase ):
 
     def setUp(self):
-        pass
+        self.a = Ascii2Ord()
 
     def test_convert_return_ord(self):
-        pass
+        result = self.a.to_ordinal('a')
 
     def test_convert_return_none_type_error(self):
         pass
@@ -58,3 +58,7 @@ class TestAscii2Ord( unittest.TestCase ):
 
     def test_convert_at_index_empty_result(self):
         pass
+
+
+if __name__ = "__main__":
+    unittest.TestAscii2Ord

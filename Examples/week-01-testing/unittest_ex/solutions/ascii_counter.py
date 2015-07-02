@@ -1,4 +1,4 @@
-import string
+    import string
 import unittest
 
 class AsciiCounter( object ):

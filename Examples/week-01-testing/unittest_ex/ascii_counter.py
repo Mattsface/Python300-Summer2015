@@ -7,7 +7,7 @@ class AsciiCounter( object ):
     """
 
     def new_or_add( self, ascii_char_key, char_dict ):
-        num_occurrences = char_dict.get( ascii_char_key, None )
+        num_occurrences = char_dict.get(ascii_char_key, None)
         if num_occurrences is None:
             # new
             char_dict[ ascii_char_key ] = 1
@@ -23,7 +23,7 @@ class AsciiCounter( object ):
         return results
 
 
-class TestAsciiCounter( unittest.TestCase ):
+class TestAsciiCounter(unittest.TestCase):
 
     def test_convert_return_ord(self):
         pass
